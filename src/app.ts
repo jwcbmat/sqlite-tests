@@ -1,4 +1,4 @@
-import { Sqlite } from "./sqlite/sqlite.js"
+import {Sqlite} from "./sqlite/sqlite.js"
 
 // TODO: adicionar plantUML para diagrama do projeto
 // TODO: construir testes com jest
@@ -8,11 +8,12 @@ import { Sqlite } from "./sqlite/sqlite.js"
 // TODO: ponto de atenção para interfaces com métodos estáticos
 
 console.log("PROCESS: starting service")
+
 /**
 	* Initial service
- * **/
+	* **/
 function initialApp(): void {
-	Sqlite.getInstance()
+	Sqlite.getInstance().init()
 }
 
 initialApp()
