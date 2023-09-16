@@ -12,6 +12,7 @@ class Sqlite {
 	}
 	
 	public static getInstance(): Sqlite {
+		console.log("chegou")
 		if (!Sqlite.instance) Sqlite.instance = new Sqlite()
 		
 		return Sqlite.instance

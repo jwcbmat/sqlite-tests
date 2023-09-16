@@ -1,4 +1,4 @@
-import {Sqlite} from "./sqlite/sqlite.js"
+import {Sqlite} from "./sqlite/sqlite"
 
 // TODO: adicionar plantUML para diagrama do projeto
 // TODO: construir testes com jest
